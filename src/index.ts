@@ -8,7 +8,8 @@ const redirects: Map<string, string> = new Map([
   ['/youtube', 'https://www.youtube.com/channel/UCy7lny2Flbq6FAb7cv8eG0Q'],
   ['/twitter', 'https://x.com/EmBeeJay_'],
   ['/donaciones', 'https://streamelements.com/embeejayz/tip'],
-  ['/instagram', 'https://www.instagram.com/embeejayz']
+  ['/instagram', 'https://www.instagram.com/embeejayz'],
+  ['/onlyfans', 'https://youtu.be/dQw4w9WgXcQ?si=AMfTCYXkwESjDzNl']
 ]);
 
 app.get('*', (c) => {
