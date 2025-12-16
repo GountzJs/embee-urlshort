@@ -9,7 +9,8 @@ const redirects: Map<string, string> = new Map([
   ['/twitter', 'https://x.com/EmBeeJay_'],
   ['/donaciones', 'https://streamelements.com/embeejayz/tip'],
   ['/instagram', 'https://www.instagram.com/embeejayz'],
-  ['/onlyfans', 'https://youtu.be/dQw4w9WgXcQ?si=AMfTCYXkwESjDzNl']
+  ['/onlyfans', 'https://youtu.be/dQw4w9WgXcQ?si=AMfTCYXkwESjDzNl'],
+  ['/suiz-furro', 'https://youtu.be/dQw4w9WgXcQ?si=AMfTCYXkwESjDzNl']
 ]);
 
 app.get('*', (c) => {
